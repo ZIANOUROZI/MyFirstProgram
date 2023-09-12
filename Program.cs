@@ -12,7 +12,6 @@
                 if (int.TryParse(Console.ReadLine(),out num)) 
                 {
                     break;
-
                 }
                 Console.WriteLine("ogiltigt heltal");
             }
@@ -21,10 +20,9 @@
             Console.WriteLine(num);
 
             if (num > 10) // If sats
-             Console.WriteLine("Talet är stort");
+                Console.WriteLine("Talet är stort");
             else
                 Console.WriteLine("Oj. Lågt tal!");
-            
 
             Console.WriteLine(" Skriv in ditt namn");
             string name = Console.ReadLine();
@@ -34,12 +32,6 @@
                 Console.WriteLine(i);
 
             }
-            
-            
-
-
         }
-
-
     }
 }
